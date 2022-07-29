@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+
+div ul li {
+  display: inline-block;
+  margin: auto 40px;
+}
+
+.list-item {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.search-icon {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.nav-button {
+  border-radius: 0.5rem;
+  font-size: 20px;
+  cursor: grab;
+  padding: 8px;
+  width: 100px;
+  background-color: transparent;
+  width: 10rem;
+  border-color: #000000;
+}
+
+.button-group {
+  display: contents;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.globe {
+  display: none;
+}
+.star {
+  display: none;
+}
+
+.hero-image {
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  z-index: 1;
+}
+
+.main-img {
+  width: 70%;
+  margin-top: 40px;
+}
+
+.square img {
+  width: 100%;
+  margin-left: 180px;
+  margin-top: 250px;
+}
+
+.hero-container-right {
+  margin-left: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.my-btn {
+  text-align: center;
+  margin: 10px 0;
+  margin-top: 1rem;
+}
+
+.button-email {
+  border-radius: 0.5rem;
+  padding: 10px;
+  cursor: grab;
+  width: 30%;
+}
+
+.button-join {
+  border-radius: 0.5rem;
+  padding: 10px;
+  cursor: grab;
+  width: 20%;
+  background-color: black;
+  color: #FFFFFF;
+}
+
+.contact-heading {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: 'Poppins';
+  font-size: 1.5rem;
+}
+
+.icons {
+  text-align: center;
+}
+
+.hero-container-right .hero-heading {
+  /* border: 2px solid red; */
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+}
+
+.hero-container-right .hero-description {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
