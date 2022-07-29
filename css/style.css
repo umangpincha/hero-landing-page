@@ -36,7 +36,7 @@ div ul li {
   width: 100px;
   background-color: transparent;
   width: 10rem;
-  border-color: #000000;
+  border: 2px solid black;
 }
 
 .button-group {
@@ -101,6 +101,7 @@ h1 {
   width: 20%;
   background-color: black;
   color: #FFFFFF;
+  /* border-color: #000000; */
 }
 
 .contact-heading {
