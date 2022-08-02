@@ -126,3 +126,22 @@ h1 {
   font-size: 1rem;
   margin-top: 1rem;
 }
+
+
+@media screen and (max-width:942px) {
+  html{
+    font-size: 10px;
+  }
+  .square img {
+    width: 50%;
+    margin-left: 180px;
+    margin-top: 250px;
+    float: left;
+  }
+  .square img {
+   display: none;
+  }
+  .hero-image img{
+    width: 50%;
+  }
+}
