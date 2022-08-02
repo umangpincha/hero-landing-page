@@ -1,6 +1,6 @@
 # Project 1 Hero Landing Page
 
-![My Imge](./thumbnail.png)
+![My Imge](./1.png)
 
 
 #### By Umang Pincha
